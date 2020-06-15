@@ -28,11 +28,13 @@ router.delete("/:id", async (req, res) => {
 
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(
-    "mongodb+srv://mongo1:enSqKLGtvpw2qaYz@cluster0-eaofj.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "mongodb+srv://mongo1:enSqKLGtvpw2qaYz@cluster0-eaofj.mongodb.net/vue_express",
     {
       useNewUrlParser: true,
+      useUnifiedTopology: true,
     }
   );
+  //84.156.231.62/32
 
   return client.db("vue_express").collection("posts");
 }
