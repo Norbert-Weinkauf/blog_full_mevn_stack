@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nobson/blog_full_mevn_stack.git"
+    "url": "git+https://github.com/Norbert-Weinkauf/blog_full_mevn_stack.git"
   },
   "author": "NW",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nobson/blog_full_mevn_stack/issues"
+    "url": "https://github.com/Norbert-Weinkauf/blog_full_mevn_stack.git/issues"
   },
-  "homepage": "https://github.com/nobson/blog_full_mevn_stack#readme",
+  "homepage": "https://github.com/Norbert-Weinkauf/blog_full_mevn_stack.git#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
