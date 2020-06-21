@@ -11,6 +11,7 @@ app.use(cors());
 const posts = require("./routes/api/posts");
 
 app.use("/api/posts", posts);
+// test comment because of name change on github
 
 // Handle production
 if (process.env.NODE_ENV === "production") {
